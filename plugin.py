@@ -38,8 +38,9 @@ class p(ptools.Plugin):
 
     def activate(self) -> bool:
         self.errors.Functions.debug('Plugin {0} activated'.format(NAME))
-        AppData.groups.list['System tools'].addCommand(self.commandManager.Command('test', print 'описание'))
+        AppData.groups.list['System tools'].addCommand(
+            self.commandManager.Command('test', self.print, 'описание'))
         AppData.groups.update()
 
-    def print():
+    def print(self):
         print(".")
