@@ -7,7 +7,7 @@ import libs.ptools as ptools
 AppData = None
 console = Console()
 
-modulesNames = ['errors', 'comandManager']
+modulesNames = ['errors', 'commandManager']
 NAME = "image viewer"
 
 # Init fuction init AppData
