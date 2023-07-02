@@ -2,8 +2,9 @@
 from __future__ import annotations
 from rich.console import Console
 from PIL import Image
+import importlib
 # Import system ptools
-import libs.ptools as ptools
+ptools = importlib.import_module("libs.ptools")
 # Create globals
 AppData = None
 console = Console()
