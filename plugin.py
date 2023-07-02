@@ -4,7 +4,7 @@ from rich.console import Console
 from PIL import Image
 import importlib
 # Import system ptools
-ptools = importlib.import_module("libs.ptools")
+import libs.ptools as ptools
 # Create globals
 AppData = None
 console = Console()
