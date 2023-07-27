@@ -1,5 +1,5 @@
 {
     "name": "image_viewer",
-    "status": "no",
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "icon": "icon.png"
 }
