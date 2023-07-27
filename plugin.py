@@ -2,7 +2,7 @@ from PIL import Image
 from PyQt5.QtWidgets import QFileDialog
 
 
-class Window():
+class Main():
     def __init__(self):
         self.filename, _ = QFileDialog.getOpenFileName()
         if self.filename:
